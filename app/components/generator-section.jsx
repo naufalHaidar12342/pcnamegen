@@ -50,7 +50,6 @@ export default function ComputerNameGenerator() {
 			<Textarea
 				isReadOnly
 				name=""
-				id=""
 				className="rounded-xl bg-slate-600 text-center"
 				defaultValue={"test"}
 			/>
