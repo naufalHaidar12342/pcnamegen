@@ -28,7 +28,7 @@ export const metadata = {
 		siteName: "pcnamegen",
 		images: [
 			{
-				url: "/pcnamegen-ogimage.png",
+				url: "./pcnamegen-ogimage.png",
 				width: 1200,
 				height: 630,
 				alt: "pcnamegen OpenGraph Image, made with Figma and Bootstrap Icons",
