@@ -1,7 +1,6 @@
 import "./globals.css";
 import { jetBrainsMono, kalnia } from "@/app/libraries/fonts";
 import { Providers } from "./libraries/providers";
-import { OGImage } from "./libraries/export-ogimage";
 
 export const metadata = {
 	title: "pcnamegen",
