@@ -92,7 +92,7 @@ export default function Home() {
 					<b>I heavily advise</b> you to use this on a{" "}
 					<b>desktop computer, laptop, or your mobile devices</b> due to its
 					comfortable screen size and great performance (compared to something
-					like car's Android TV, smartwatch, etc.)
+					like car{`'`}s Android TV, smartwatch, etc.)
 				</p>
 			</div>
 
@@ -123,12 +123,13 @@ export default function Home() {
 					</h3>
 					<p className="pt-2">
 						Sometimes, every 6 months or so, I like to re-install my Windows
-						computer to keep it fresh. And everytime I got to the "Name your
-						local account" part, I always stuck on what name should I use,
-						surprisingly similar like the time I have to come up with in-game
-						name/nickname when I start playing a game. So, I made this tool to
-						help me generate a name for my computer, and I hope it can help you
-						too!
+						computer to keep it fresh. And everytime I got to the{" "}
+						{`"Name your
+						local account"`}{" "}
+						part, I always stuck on what name should I use, surprisingly similar
+						like the time I have to come up with in-game name/nickname when I
+						start playing a game. So, I made this tool to help me generate a
+						name for my computer, and I hope it can help you too!
 					</p>
 				</div>
 			</div>
