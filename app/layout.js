@@ -40,6 +40,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en" className="dark">
+			<meta
+				name="google-site-verification"
+				content="5aa6As9VZ5jfr0kpvPJV8ZIlaVBpWrnSayF5Qfx-nVI"
+			/>
 			<body className={jetBrainsMono.className}>
 				<Providers>{children}</Providers>
 			</body>
