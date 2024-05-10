@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# pcnamegen
 
-## Getting Started
+![pcnamegen](/app/opengraph-image.png)
+Generic-looking name generator for your computer
 
-First, run the development server:
+> This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Start to use this tool
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Spin the dice! Then, write down the generated computer name on a piece of paper (sticky notes also good), or write it down on your notepad from mobile phone, other computer, etc.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+If you do not want to manually write it down, a copy to clipboard button also available to use. It would require your permission first for write access on your clipboard
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Why I made this tool?
 
-## Learn More
+Every few months, I like to reinstall Windows to make my computer feels fresh. And every time I reached the "Create your local account" step, I'm out of idea just like when I try to name my character in game
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This tool use GNU General Public License v3.0, meaning feel free to share, modify, and use this for commercial and personal projects!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
