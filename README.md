@@ -15,7 +15,13 @@ If you do not want to manually write it down, a copy to clipboard button also av
 
 Every few months, I like to reinstall Windows to make my computer feels fresh. And every time I reached the "Create your local account" step, I'm out of idea just like when I try to name my character in game
 
+## Credits
+
+- Robot logo (little guy in the picture) [Robot by Bootstrap Icons](https://icons.getbootstrap.com/icons/robot/)
+- Algorithm suggestion by perplexity.ai and GitHub Copilot AI
+- CSS Framework by [Tailwind CSS](https://tailwindcss.com/docs/installation)
+- JavaScript framework by [Next.js](https://nextjs.org/docs)
+
 ## License
 
 This tool use GNU General Public License v3.0, meaning feel free to share, modify, and use this for commercial and personal projects!
-
