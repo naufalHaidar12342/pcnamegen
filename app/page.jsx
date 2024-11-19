@@ -11,56 +11,7 @@ import ComputerNameGenerator from "./components/generator-section";
 import { Accordion, AccordionItem } from "@nextui-org/accordion";
 import NavigationMenu from "./components/navigation-menu";
 import StepsToUsePCNAMEGEN from "./components/steps-to-use-pcnamegen";
-// import NavigationMenu from "@/app/components/navigation-menu";
 
-function generateName() {
-	const random = Math.floor(Math.random() * 10000000);
-	const alphabet = String.fromCharCode(Math.floor(Math.random() * 26) + 65);
-	return "DESKTOP-" + alphabet + random.toString(36).toUpperCase() + alphabet;
-}
-
-function generateSevenDigitsName() {
-	const alphabet = [
-		"A",
-		"B",
-		"C",
-		"D",
-		"E",
-		"F",
-		"G",
-		"H",
-		"I",
-		"J",
-		"K",
-		"L",
-		"M",
-		"N",
-		"O",
-		"P",
-		"Q",
-		"R",
-		"S",
-		"T",
-		"U",
-		"V",
-		"W",
-		"X",
-		"Y",
-		"Z",
-	];
-	const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-	let name = "DESKTOP-";
-	for (let i = 0; i < 7; i++) {
-		if (i % 2 === 0) {
-			name = name + alphabet[Math.floor(Math.random() * alphabet.length)];
-		} else {
-			name = name + numbers[Math.floor(Math.random() * numbers.length)];
-		}
-	}
-	return name;
-}
-// console.log("hasil random generator modif=", generateSevenDigitsName());
-// console.log("hasil random generator", generateName());
 export default function Home() {
 	return (
 		<main className="flex min-h-screen max-w-screen-xl mx-auto flex-col items-center justify-center gap-6 p-16">
@@ -113,7 +64,7 @@ export default function Home() {
 				<StepsToUsePCNAMEGEN />
 			</div>
 			<div
-				className="flex flex-col  w-full gap-6 border-2 border-slate-200 p-5 rounded-2xl"
+				className="flex flex-col w-full gap-6 border-2 border-slate-200 p-5 rounded-2xl"
 				id="why-i-made-this-tool"
 			>
 				<div className="flex flex-col">
